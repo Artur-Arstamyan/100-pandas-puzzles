@@ -79,7 +79,7 @@ There are may other excellent resources and books that are easily searchable and
 # Notable exercises
 ## Exercise N21 
 **Problem**  
-For each animal type and each number of visits, find the mean age. In other words, each row is an animal, each column is a number of visits and the values are the mean ages (hint: use a pivot table).
+For each animal type and each number of visits, find the mean age. In other words, each row is an animal, each column is a number of visits and the values are the mean ages (hint: use a pivot table).  
 **Code**
 ```python
 df.pivot_table(index='animal', columns='visits', values='age', aggfunc='mean')
