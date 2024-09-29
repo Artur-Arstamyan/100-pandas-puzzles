@@ -84,4 +84,11 @@ For each animal type and each number of visits, find the mean age. In other word
 ```python
 df.pivot_table(index='animal', columns='visits', values='age', aggfunc='mean')
 ```
-## Exercise N 
+## Exercise N28
+**Problem** 
+For each group of 10 consecutive integers in column 'A' (i.e. (0, 10], (10, 20], ...), calculate the sum of the corresponding values in column 'B'.  
+**Code**
+```python
+df = pd.DataFrame(np.random.RandomState(8765).randint(1, 101, size=(100, 2)), columns = ["A", "B"])
+df.groupby(pd.cut(df['A'], np.arange(0, 101, 10)))['B'].sum()
+```
