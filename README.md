@@ -14,7 +14,7 @@ For each group of 10 consecutive integers in column 'A' (i.e. (0, 10], (10, 20],
 df = pd.DataFrame(np.random.RandomState(8765).randint(1, 101, size=(100, 2)), columns = ["A", "B"])
 df.groupby(pd.cut(df['A'], np.arange(0, 101, 10)))['B'].sum()
 ```
-## Exercise N53 - Fixing AttributeError & suggesting Alternative solution
+## Exercise N53 - [Fixing AttributeError & suggesting Alternative solution](https://github.com/ajcr/100-pandas-puzzles/issues/49#issue-2559633093)
 **AttributeError**
 - **Code**
 ```python
