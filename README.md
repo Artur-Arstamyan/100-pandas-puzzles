@@ -1,3 +1,5 @@
+[25 nooby Pandas mistakes you should never make]()
+https://youtu.be/_gaAoJBMJ_Q?si=H4C-HGqSlzHAOZ0M)
 # Created issues
 [Fixing AttributeError & suggesting Alternative solution for Puzzle N53](https://github.com/ajcr/100-pandas-puzzles/issues/49#issue-2559633093)  
 
